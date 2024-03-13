@@ -1,0 +1,27 @@
+{
+	"manifest_version": 3,
+	"name": "NowInject",
+	"version": "0.9",
+
+	"description": "Personal collection of user stylesheets and scripts.",
+
+	"icons": {
+		"48": "icons/potters-hand.png"
+	},
+
+	"content_scripts": [
+	],
+
+	"_content_scripts_css": {
+		"css": ["inject/base.css"],
+		"js": ["inject_css.js"]
+	},
+
+	"_content_scripts_js": {
+		"css": [],
+		"js": ["inject/base.js"]
+	},
+
+	"web_accessible_resources": [
+	]
+}
