@@ -14,7 +14,7 @@ Userscripts
 
 A directory called `inject` in the base directory contains your user styles and scripts, organized in subdirectories. *This directory must exist for the subsequent steps to work.*
 
-You could symlink the `inject` directory or maintain it as a submodule. See [nowinject-scripts][2] for an example.
+You could symlink the `inject` directory or maintain it as a submodule. See [NowInject Scripts][2] for an example.
 
 Each subdirectory contains a single spec, consisting of three files:
 
